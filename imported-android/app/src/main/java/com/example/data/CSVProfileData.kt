@@ -1,0 +1,101 @@
+package com.example.data
+
+data class CsvProfile(
+    val id: String,
+    val displayName: String,
+    val companyDescription: String,
+    val websiteUrl: String = "",
+    val linkedinUrl: String = "",
+    val instagramUrl: String = "",
+    val xUrl: String = "",
+    val countryRegion: String = "",
+    val annualRevenue: String = "",
+    val currentMarkets: String = "",
+    val targetMarkets: String = "",
+    val importExportStatus: String = "",
+    val brandsRepresented: String = "",
+    val primarySectors: String = "",
+    val targetBuyers: String = "",
+    val boothSizeConfirmed: String = "",
+    val electricalNeeds: String = "",
+    val exhibitorLeadId: String = ""
+)
+
+object CSVProfileData {
+    val list = listOf(
+        CsvProfile(
+            id = "feb8a00c-839e-4412-80c8-2e76765a1014",
+            displayName = "CogniCo",
+            companyDescription = "AI-Consulting for modern food systems to maximize agricultural yield, distribute automated software, and advise on sustainable crop deployment.",
+            websiteUrl = "www.cognico.ca",
+            countryRegion = "Canada",
+            annualRevenue = "Pre-revenue",
+            currentMarkets = "Canada",
+            targetMarkets = "Canada, United States",
+            importExportStatus = "Both",
+            brandsRepresented = "AI",
+            primarySectors = "Primary Production, Agritech & Smart Farming",
+            targetBuyers = "Investors & VCs",
+            boothSizeConfirmed = "Test Size",
+            electricalNeeds = "Internet",
+            exhibitorLeadId = "f81b29e2-57c4-4d4b-aefa-69591b91aae4"
+        ),
+        CsvProfile(
+            id = "e1160788-009e-4db2-a61c-a134bfd84634",
+            displayName = "Test Org",
+            companyDescription = "Sourcing partner researching sustainable tech implementation, primary farming analytics, and test simulations for metropolitan distribution channels.",
+            websiteUrl = "",
+            countryRegion = "Canada",
+            annualRevenue = "Pre-revenue",
+            currentMarkets = "Canada",
+            targetMarkets = "Mexico",
+            importExportStatus = "Exporter",
+            brandsRepresented = "Test",
+            primarySectors = "Primary Production, Agritech & Smart Farming",
+            targetBuyers = "Government & Institutions",
+            boothSizeConfirmed = "Test Size",
+            electricalNeeds = "Test Electric",
+            exhibitorLeadId = "0d8090e5-dd5b-4641-b968-35b72f78b531"
+        ),
+        CsvProfile(
+            id = "f4f09cb2-c7c0-49c0-b776-225ee4155cdb",
+            displayName = "Food Forward",
+            companyDescription = "Next-generation snack sourcing specializing in marine algae compositions, seaweed wraps, eco-packaging materials and alternative proteins.",
+            websiteUrl = "https://www.cognico.ca/",
+            linkedinUrl = "https://www.linkedin.com/in/cognico-test-3859263b9/",
+            instagramUrl = "https://www.instagram.com/cognico_ai/",
+            xUrl = "https://x.com/CogniCO_AI",
+            countryRegion = "Canada",
+            annualRevenue = "$100K – $500K",
+            currentMarkets = "Canada, European Union, South America",
+            targetMarkets = "Canada, European Union, South America",
+            importExportStatus = "Both",
+            brandsRepresented = "NLEats",
+            primarySectors = "Primary Production, Agritech & Smart Farming, Sustainable Packaging, Start-Ups",
+            targetBuyers = "Investors & VCs",
+            boothSizeConfirmed = "8x8 Kiosk",
+            electricalNeeds = "ALL",
+            exhibitorLeadId = "74c53fc8-c454-4221-bab7-90b2f8e5b250"
+        ),
+        CsvProfile(
+            id = "9da28dbe-3b1e-4e60-834e-69e13f2ecf9c",
+            displayName = "Cognico_test",
+            companyDescription = "Early stage startup testing smart temperature cold-chains, automated crop sensor devices, and modern logistics management software.",
+            websiteUrl = "www.cognico.ca",
+            linkedinUrl = "https://ca.linkedin.com/company/cognico-ai-consulting",
+            instagramUrl = "https://www.instagram.com/cognico.ca/",
+            xUrl = "",
+            countryRegion = "Canada",
+            annualRevenue = "Pre-revenue",
+            currentMarkets = "Canada, United States",
+            targetMarkets = "United Kingdom, Canada, South America, Asia Pacific",
+            importExportStatus = "Both",
+            brandsRepresented = "Cognico_test",
+            primarySectors = "Primary Production, Agritech & Smart Farming, Investment, Trade & Export, Food Processing & Equipment",
+            targetBuyers = "Investors & VCs",
+            boothSizeConfirmed = "Test Size",
+            electricalNeeds = "Not needed",
+            exhibitorLeadId = "291f8a8f-cd3a-4414-a282-0c39995ce1db"
+        )
+    )
+}

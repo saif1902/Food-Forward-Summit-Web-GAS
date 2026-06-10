@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Chevron 1 -->
+    <path
+        android:fillColor="#A31D1D"
+        android:pathData="M5,20 L40,60 L5,100 L25,100 L60,60 L25,20 Z" />
+
+    <!-- Chevron 2 -->
+    <path
+        android:fillColor="#A31D1D"
+        android:pathData="M35,20 L70,60 L35,100 L55,100 L90,60 L55,20 Z" />
+
+    <!-- Chevron 3 -->
+    <path
+        android:fillColor="#A31D1D"
+        android:pathData="M65,20 L100,60 L65,100 L85,100 L120,60 L85,20 Z" />
+</vector>

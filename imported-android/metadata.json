@@ -1,0 +1,6 @@
+{
+  "name": "Food Forward Summit",
+  "description": "The official enterprise B2B companion app for Food Forward Summit 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
